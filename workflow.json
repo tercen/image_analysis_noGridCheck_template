@@ -1,8 +1,8 @@
 {
   "kind": "Workflow",
-  "id": "a50707beccc72f36fbfd05d141c359a2",
+  "id": "75ee4825c08b83cacbe922291ea66b5c",
   "isDeleted": false,
-  "rev": "6-c6b72016b25d21f14fbe57b4cb456637",
+  "rev": "2-ad4e6469e28802a26a4f28d33e321982",
   "description": "",
   "name": "image_analysis_noGridCheck",
   "createdBy": "ginberg",
@@ -13,26 +13,36 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-02-08T09:48:55.152991Z"
+    "value": "2022-10-03T08:45:56.469962Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-02-08T10:08:40.046380Z"
+    "value": "2022-10-03T08:45:56.713230Z"
   },
-  "urls": [],
+  "urls": [
+    {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/image_analysis_noGridCheck_template"
+    }
+  ],
   "tags": [],
   "meta": [
     {
       "kind": "Pair",
       "key": "copyOf",
       "value": "32686b39f178f64eef1bbd3844503a9f"
+    },
+    {
+      "kind": "Pair",
+      "key": "workflow.template",
+      "value": ""
     }
   ],
   "url": {
     "kind": "Url",
-    "uri": ""
+    "uri": "https://github.com/tercen/image_analysis_noGridCheck_template"
   },
-  "version": "",
+  "version": "0.0.2",
   "authors": [],
   "isPublic": false,
   "projectId": "c845ceade32c4423bc616ff5ab191906",
@@ -58,12 +68,6 @@
     },
     {
       "kind": "Link",
-      "id": "9511bc2d-e653-437f-bda9-2cc56a5c9ac6",
-      "inputId": "7906f8e5-a250-43f6-a89b-5cadf87bf918-i-0",
-      "outputId": "50cc9839-fde9-423f-b8e0-172c2b06add2-o-0"
-    },
-    {
-      "kind": "Link",
       "id": "e85a671b-b610-46b2-9f61-a2f9c8aaadf6",
       "inputId": "488bf666-aa99-45e9-8d6f-100c590f02d3-i-0",
       "outputId": "3fa699af-7d16-40b7-9c8f-c687c90d1d0c-o-0"
@@ -73,6 +77,18 @@
       "id": "5a707e55-b9a2-476f-ad8f-6cdbc0f26faa",
       "inputId": "15223109-6bfe-4cb4-91bb-1a7be70e5772-i-0",
       "outputId": "488bf666-aa99-45e9-8d6f-100c590f02d3-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "81d60584-e2ff-44ca-be6f-1f34502e5a00",
+      "inputId": "7906f8e5-a250-43f6-a89b-5cadf87bf918-i-0",
+      "outputId": "acdcef5b-ae3f-488f-872d-52b0226814a2-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "48762c8c-94a6-4f06-ba2f-decdf1b1a231",
+      "inputId": "7a90aae9-164c-4a13-b3da-182b6c76b0d4-i-0",
+      "outputId": "acdcef5b-ae3f-488f-872d-52b0226814a2-o-0"
     }
   ],
   "steps": [
@@ -315,7 +331,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "09c14b81-ba71-4134-973b-c9e56afe062f"
+        "id": "d3dd33cb-e503-4c48-bbaf-e5be9f409462"
       }
     },
     {
@@ -716,7 +732,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "789b6cd5-2ce3-4512-8b41-3860beeb730e"
+        "id": "24866940-40d9-4e45-b796-aa364df7f7ac"
       }
     },
     {
@@ -850,7 +866,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 122.47956848144531,
+          "x": 122.47984313964844,
           "y": 55.0
         },
         "topLeft": {
@@ -1226,50 +1242,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e2a8c480-852b-4291-b4fd-5966dd4c5ab2"
-      }
-    },
-    {
-      "kind": "TableStep",
-      "id": "50cc9839-fde9-423f-b8e0-172c2b06add2",
-      "groupId": "",
-      "name": "Evolve Folder zip",
-      "inputs": [],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "50cc9839-fde9-423f-b8e0-172c2b06add2-o-0",
-          "linkType": "relation",
-          "name": "table"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 118.51763916015625,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 834.5050000000001,
-          "y": 228.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "model": {
-        "kind": "TableStepModel",
-        "relation": {
-          "kind": "UnionRelation",
-          "id": "e001fe84-fc94-4ce1-92f6-48b7d89b3829",
-          "relations": []
-        }
+        "id": "7f84a13e-0eb6-454f-826c-d23ff24133d0"
       }
     },
     {
@@ -1690,7 +1663,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "2eaf1a22-4c78-42a1-ade7-8285f35d1d4a"
+        "id": "cbbff7cf-ce13-4518-92e2-5bc90fc35738"
       }
     },
     {
@@ -1729,6 +1702,317 @@
       },
       "model": {
         "kind": "ExportModel"
+      }
+    },
+    {
+      "kind": "DataStep",
+      "id": "7a90aae9-164c-4a13-b3da-182b6c76b0d4",
+      "groupId": "",
+      "name": "Image overview",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "7a90aae9-164c-4a13-b3da-182b6c76b0d4-i-0",
+          "linkType": "relation",
+          "name": "data"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "7a90aae9-164c-4a13-b3da-182b6c76b0d4-o-0",
+          "linkType": "relation",
+          "name": "data"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 112.16180419921875,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 999.2688882446291,
+          "y": 317.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "model": {
+        "kind": "Crosstab",
+        "axis": {
+          "kind": "XYAxisList",
+          "rectangleSelections": [],
+          "xyAxis": [
+            {
+              "kind": "XYAxis",
+              "chart": {
+                "kind": "ChartPoint",
+                "name": "",
+                "properties": {
+                  "kind": "Properties",
+                  "properties": [],
+                  "propertyValues": []
+                },
+                "pointSize": 4
+              },
+              "colors": {
+                "kind": "Colors",
+                "factors": [],
+                "palette": {
+                  "kind": "CategoryPalette",
+                  "backcolor": 0,
+                  "properties": [],
+                  "colorList": {
+                    "kind": "ColorList",
+                    "name": ""
+                  },
+                  "stringColorElements": []
+                }
+              },
+              "errors": {
+                "kind": "Errors",
+                "factors": []
+              },
+              "labels": {
+                "kind": "Labels",
+                "factors": []
+              },
+              "xAxis": {
+                "kind": "Axis",
+                "axisExtent": {
+                  "kind": "Point",
+                  "x": 80.0,
+                  "y": 30.0
+                },
+                "axisSettings": {
+                  "kind": "AxisSettings",
+                  "properties": [],
+                  "propertyValues": []
+                },
+                "graphicalFactor": {
+                  "kind": "GraphicalFactor",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "",
+                    "type": "string"
+                  },
+                  "rectangle": {
+                    "kind": "Rectangle",
+                    "extent": {
+                      "kind": "Point",
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "topLeft": {
+                      "kind": "Point",
+                      "x": 0.0,
+                      "y": 0.0
+                    }
+                  }
+                }
+              },
+              "yAxis": {
+                "kind": "Axis",
+                "axisExtent": {
+                  "kind": "Point",
+                  "x": 80.0,
+                  "y": 30.0
+                },
+                "axisSettings": {
+                  "kind": "AxisSettings",
+                  "properties": [],
+                  "propertyValues": []
+                },
+                "graphicalFactor": {
+                  "kind": "GraphicalFactor",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "",
+                    "type": "string"
+                  },
+                  "rectangle": {
+                    "kind": "Rectangle",
+                    "extent": {
+                      "kind": "Point",
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "topLeft": {
+                      "kind": "Point",
+                      "x": 0.0,
+                      "y": 0.0
+                    }
+                  }
+                }
+              },
+              "taskId": ""
+            }
+          ]
+        },
+        "columnTable": {
+          "kind": "CrosstabTable",
+          "cellSize": 250.0,
+          "offset": 0,
+          "graphicalFactors": [
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "documentId",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            }
+          ],
+          "rectangleSelections": [],
+          "nRows": 1
+        },
+        "filters": {
+          "kind": "Filters",
+          "removeNaN": true,
+          "namedFilters": []
+        },
+        "operatorSettings": {
+          "kind": "OperatorSettings",
+          "namespace": "ds2",
+          "operatorRef": {
+            "kind": "OperatorRef",
+            "name": "PS12 Image Overview Shiny Operator",
+            "version": "0.0.7",
+            "operatorId": "75ee4825c08b83cacbe922291ea23e46",
+            "operatorKind": "ShinyOperator",
+            "propertyValues": [],
+            "url": {
+              "kind": "Url",
+              "uri": "https://github.com/tercen/ps12image_overview_shiny_operator"
+            }
+          },
+          "environment": [
+            {
+              "kind": "Pair",
+              "key": "cpu",
+              "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "ram",
+              "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "cpu-shares",
+              "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "tercen.collect.stats",
+              "value": "false"
+            },
+            {
+              "kind": "Pair",
+              "key": "debug",
+              "value": "false"
+            }
+          ]
+        },
+        "rowTable": {
+          "kind": "CrosstabTable",
+          "cellSize": 250.0,
+          "offset": 0,
+          "graphicalFactors": [
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            }
+          ],
+          "rectangleSelections": [],
+          "nRows": 1
+        },
+        "taskId": ""
+      },
+      "computedRelation": {
+        "kind": "Relation",
+        "id": "a4d73f5d-9fde-4f3e-b65f-40bd5d6def8b"
+      }
+    },
+    {
+      "kind": "TableStep",
+      "id": "acdcef5b-ae3f-488f-872d-52b0226814a2",
+      "groupId": "",
+      "name": "Evolve Folder zip",
+      "inputs": [],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "acdcef5b-ae3f-488f-872d-52b0226814a2-o-0",
+          "linkType": "relation",
+          "name": "table"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 118.51777648925781,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 835.5050000000001,
+          "y": 218.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "model": {
+        "kind": "TableStepModel",
+        "relation": {
+          "kind": "UnionRelation",
+          "id": "7022b8ff-710c-4c02-999e-391f93132d5b",
+          "relations": []
+        }
       }
     }
   ],
